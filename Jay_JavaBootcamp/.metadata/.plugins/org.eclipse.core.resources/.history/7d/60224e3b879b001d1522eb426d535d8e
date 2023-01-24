@@ -1,0 +1,16 @@
+package com.day3.assignment3;
+
+public class JaggedArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[][] tutorial = {{"Tony", "Java", "C", "C++"},
+				{"Thomas", "Java", "UNIX"},
+				{"Dinil","Linux", "Oracle"},
+				{"Delvin", "RDBMS", "C#", "ORACLE"}};
+		
+		System.out.println(tutorial[3]);
+		}
+	}
+
+
