@@ -1,0 +1,26 @@
+package com.CaseStudy2.assignment1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Travel travel = new Travel();
+		travel.setModeOfTravel('F');
+		travel.setNoOfTickets(3);
+		
+		
+		if (travel.getModeOfTravel() == 'F') {
+			travel.setAmount(travel.getNoOfTickets()*500);
+		}
+		else if (travel.getModeOfTravel() == 'T') {
+			travel.setAmount(travel.getNoOfTickets()*100);
+		}
+		else if (travel.getModeOfTravel() == 'B') {
+			travel.setAmount(travel.getNoOfTickets()*50);
+		}
+		
+		System.out.println(travel.getAmount());
+
+	}
+
+}

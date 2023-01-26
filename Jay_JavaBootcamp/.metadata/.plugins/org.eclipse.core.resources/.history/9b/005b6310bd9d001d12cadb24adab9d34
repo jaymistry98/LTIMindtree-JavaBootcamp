@@ -1,0 +1,11 @@
+package com.CaseStudy2.assignment1;
+
+public class Travel {
+	
+	private char modeOfTravel;
+	private int noOfTickers;
+	private double amount;
+	
+	
+	
+}

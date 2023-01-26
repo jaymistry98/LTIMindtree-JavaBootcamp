@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.assessment.PermanentEmployee"/>
+    <fullyQualifiedTypeName name="com.assessment.Employee"/>
+    <fullyQualifiedTypeName name="com.assessment.TechnicalAssociate"/>
+    <fullyQualifiedTypeName name="com.assessment.TechincalAssociateContractEmployee"/>
+    <fullyQualifiedTypeName name="com.assessment.ProjectManagers"/>
+    <fullyQualifiedTypeName name="com.day4.assignment8.Student"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+</qualifiedTypeNameHistroy>

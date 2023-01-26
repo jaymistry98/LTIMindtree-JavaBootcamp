@@ -1,0 +1,28 @@
+package com.CaseStudy2.assignment1;
+
+public class Travel {
+	
+	private char modeOfTravel;
+	private int noOfTickers;
+	private double amount;
+	
+	public char getModeOfTravel() {
+		return modeOfTravel;
+	}
+	public void setModeOfTravel(char modeOfTravel) {
+		this.modeOfTravel = modeOfTravel;
+	}
+	public int getNoOfTickers() {
+		return noOfTickers;
+	}
+	public void setNoOfTickers(int noOfTickers) {
+		this.noOfTickers = noOfTickers;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	
+}

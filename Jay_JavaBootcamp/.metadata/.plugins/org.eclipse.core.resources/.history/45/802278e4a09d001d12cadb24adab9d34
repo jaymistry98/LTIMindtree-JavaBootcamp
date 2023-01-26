@@ -1,0 +1,22 @@
+package com.assessment;
+
+public class ProjectManagers extends PermanentEmployee {
+
+	public ProjectManagers() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectManagers(int noOfExperience, int noOfCertifications) {
+		super(noOfExperience, noOfCertifications);
+		// TODO Auto-generated constructor stub
+	}
+
+	public ProjectManagers(int empId, String empName, int noOfExperience, int noOfCertifications) {
+		super(empId, empName, noOfExperience, noOfCertifications);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

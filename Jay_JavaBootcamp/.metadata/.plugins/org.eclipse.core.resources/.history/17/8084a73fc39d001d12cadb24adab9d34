@@ -1,0 +1,10 @@
+package com.CaseStudy2.assignment2;
+
+public class AutoGenerate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

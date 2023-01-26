@@ -1,0 +1,7 @@
+package com.assessment;
+
+public interface PermanentEmployee {
+	
+	public int getSalary(int experience, int certifications);
+	public int medicalCoverage(int salary);
+}

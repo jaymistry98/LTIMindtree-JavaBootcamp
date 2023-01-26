@@ -1,0 +1,30 @@
+package com.CaseStudy2.assignment1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Travel travel = new Travel();
+		travel.setModeOfTravel('F');
+		travel.setNoOfTickets(3);
+		
+		double serviceCharge =0;
+		
+		
+		if (travel.getModeOfTravel() == 'F') {
+			serviceCharge = travel.getNoOfTickets()*500;
+		}
+		else if (travel.getModeOfTravel() == 'T') {
+			serviceCharge = travel.getNoOfTickets()*100;
+		}
+		else if (travel.getModeOfTravel() == 'B') {
+			serviceCharge = travel.getNoOfTickets()*50;
+		}
+		
+		travel.setAmount(serviceCharge);
+		
+		System.out.println(travel.getAmount());
+
+	}
+
+}
