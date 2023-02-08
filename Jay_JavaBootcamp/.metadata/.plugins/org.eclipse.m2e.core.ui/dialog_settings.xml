@@ -2,7 +2,21 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\10719785\Downloads\mockingpro"/>
+			<item value="C:\Users\10719785\ltifullstack\config-server-app"/>
+			<item value="C:\Users\10719785\ltifullstack\employee-zuul-service"/>
+			<item value="C:\Users\10719785\Jay_JavaBootcamp\emp-ms-service-jpa"/>
+			<item value="C:\Users\10719785\Jay_JavaBootcamp\emp-ms-client"/>
+			<item value="C:\Users\10719785\Jay_JavaBootcamp\emp-ms-service"/>
+			<item value="C:\Users\10719785\Jay_JavaBootcamp\emp-ms-registry"/>
+			<item value="C:\Users\10719785\ltifullstack\emp-ms-registry"/>
+			<item value="C:\Users\10719785\Jay_JavaBootcamp_MS\emp-ms-service-jpa"/>
+			<item value="C:\Users\10719785\ltifullstack\emp-ms-service"/>
+			<item value="C:\Users\10719785\ltifullstack\emp-ms-client"/>
+			<item value="C:\Users\10719785\ltifullstack\emp-ms-registry\emp-ms-registry"/>
+			<item value="C:\Users\10719785\ltifullstack\emp-test"/>
+			<item value="C:\Users\10719785\ltifullstack\springbootCRUD"/>
+			<item value="C:\repo\lti-spring-mvc2"/>
+			<item value="C:\Users\10719785\ltifullstack\lti-spring-mvc\lti-spring-mvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -12,5 +26,17 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

@@ -1,0 +1,9 @@
+package com.app;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.model.Insurance;
+
+public interface InsuranceApp extends CrudRepository<Insurance, Integer> {
+
+}

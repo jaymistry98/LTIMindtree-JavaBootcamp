@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.pack.ltispringcore&apos; to &apos;lti-spring-dao/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;lti-spring-core&apos;&#x0D;&#x0A;- Destination element: &apos;lti-spring-dao/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;lti-spring-core/src/main/java/com.pack.ltispringcore&apos;" description="Copy package" destination="=lti-spring-dao/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pack.ltispringcore" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1675091189611" version="1.0"/>
+</session>

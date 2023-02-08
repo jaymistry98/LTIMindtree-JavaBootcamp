@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.aop&apos; to &apos;lti-spring-mvc2-jdbc/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;lti-spring-dao&apos;&#x0D;&#x0A;- Destination element: &apos;lti-spring-mvc2-jdbc/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;lti-spring-dao/src/main/java/com.aop&apos;" description="Copy package" destination="=lti-spring-mvc2-jdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aop" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1675277954738" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;lti-spring-core/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;day2&apos;&#x0D;&#x0A;- Destination element: &apos;lti-spring-core/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     day2/src/com.roomservice&#x0D;&#x0A;     day2/src/com.restaurant" description="Copy packages" destination="=lti-spring-core/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src&lt;com.roomservice" element2="/src&lt;com.restaurant" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1674829373281" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Info Update</title>
+</head>
+<body>
+<form method="post">
+
+StudentName:<input type="text" name="name"/>
+Subject:<input type="text" name="subject"/>
+SchoolName:<input type="text" name="schoolName"/>
+<button>Update Information</button>
+
+</form>
+</body>
+</html>

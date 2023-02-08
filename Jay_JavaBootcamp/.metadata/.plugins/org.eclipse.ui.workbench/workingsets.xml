@@ -5,5 +5,34 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674753486149_3" label="mockapp2" name="mockapp2">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mockapp2" type="4"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674829084657_4" label="lti-spring-core" name="lti-spring-core">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lti-spring-core" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675184006301_5" label="lti-spring-mvc" name="lti-spring-mvc"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675186435337_6" label="lti-spring-mvc2" name="lti-spring-mvc2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lti-spring-mvc2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675279012322_7" label="springboot-firstwebapp" name="springboot-firstwebapp"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675433364703_8" label="employees" name="employees">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/employees" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675451262303_9" label="emp-ms-client" name="emp-ms-client">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emp-ms-client" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675451278827_10" label="emp-ms-registry" name="emp-ms-registry">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emp-ms-registry" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675451306988_11" label="emp-ms-service" name="emp-ms-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emp-ms-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675714846565_12" label="employee-zuul-service" name="employee-zuul-service">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/employee-zuul-service" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675714969975_13" label="emp-ms-service-jpa" name="emp-ms-service-jpa">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emp-ms-service-jpa" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675781283571_14" label="config-server-app" name="config-server-app">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/config-server-app" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674753272318_2" label="Window Working Set" name="Aggregate for window 1674753272318"/>
 </workingSetManager>

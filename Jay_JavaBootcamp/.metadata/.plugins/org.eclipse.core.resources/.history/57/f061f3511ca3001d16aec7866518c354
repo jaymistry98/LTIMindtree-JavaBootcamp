@@ -1,0 +1,16 @@
+package com.service;
+
+import java.util.List;
+
+import com.model.User;
+
+public interface UserDao {
+	
+	public void addUser(User user);
+	//public String checkUser(User user);
+	public List<User> loadAll();
+	public User findUser(int name);
+	public void deleteUser(int name);
+	public boolean updateUser(int name, User user);
+	
+}

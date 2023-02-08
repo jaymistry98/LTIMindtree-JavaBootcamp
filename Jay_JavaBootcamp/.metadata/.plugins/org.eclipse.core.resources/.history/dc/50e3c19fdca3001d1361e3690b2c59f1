@@ -1,0 +1,41 @@
+package com.java.employees.controllers;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.Matchers;
+import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
+
+import com.java.employees.model.Employee;
+import com.java.employees.services.EmployeeService;
+
+@WebMvcTest(EmployeeController.class)
+public class TestController {
+	
+	@MockBean
+	EmployeeService employeeService;
+	
+	@Autowired
+	MockMvc mockMvc;
+	
+	@Test
+	public void testFindAll() {
+		Employee employee = new Employee("admin", "manager");
+		List<Employee> employees = Arrays.asList(employee);
+		
+		Mockito.when(employeeService.findAll()).thenReturn(employees);
+		
+		mockMvc.perform((MockMvcRequestBuilders.get("/employee")).andExpect(MockMvcResultMatchers.status().isOk())
+				.andExpect(MockMvcResultMatchers.jsonPath("$", Matchers.hasSize(1)))
+				.andExpect(MockMvcResultMatchers.jsonPath("$[0].firstName", Matchers.is("admin")));
+		
+				
+	}
+}
